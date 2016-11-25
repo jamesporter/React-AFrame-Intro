@@ -26,7 +26,11 @@ class Starter extends React.Component {
 
       <Translation x={-2} y={-1} z={-2}>
         <Cube size={2}/>
-        {/*<Sphere size={1}/>*/}
+
+      </Translation>
+
+      <Translation x={-2} y={-1} z={2}>
+        <Sphere size={1}/>
       </Translation>
 
       <Translation x={2} y={-1} z={-2}>
